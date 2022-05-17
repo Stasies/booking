@@ -1,0 +1,59 @@
+.mail {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #00224f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 0;
+}
+.mail-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mail-input-container {
+  max-width: 1094px;
+  min-width: 620px;
+  margin: 0 auto;
+  padding: 0 8px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.mail-input {
+  font-size: 20px;
+  line-height: 28px;
+  color: #6b6b6b;
+  border: 0;
+  border-radius: 3px;
+  font-weight: 100;
+  padding: 10px;
+  width: 65%;
+}
+.mail-button {
+  background-color: #0071c2;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0;
+  padding: 0 15px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  height: 48px;
+}
+
+.mail-title {
+  font-weight: lighter;
+  padding: 0;
+}
+.mail-desc {
+  color: lightgrey;
+  font-weight: lighter;
+}

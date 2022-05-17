@@ -1,0 +1,27 @@
+.p-list {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.p-list-item {
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+}
+.p-list-img {
+  border-radius: 5px;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.p-list-titles > h3 {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.p-list-titles > h4 {
+  font-size: 14px;
+  font-weight: 300;
+}

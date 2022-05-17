@@ -1,0 +1,96 @@
+.search-item {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.search-item-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.search-item-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+.search-item-title {
+  font-size: 20px;
+  color: #0071c2;
+}
+.search-item-distance {
+  font-size: 12px;
+}
+.search-item-taxi {
+  font-size: 12px;
+  background-color: #008009;
+  color: white;
+  width: max-content;
+  padding: 3px;
+  border-radius: 5px;
+}
+.search-item-subtitle {
+  font-weight: bold;
+  font-size: 12px;
+}
+.search-item-features {
+  font-size: 12px;
+}
+.search-item-cancel {
+  font-size: 12px;
+  color: #008009;
+  font-weight: bold;
+}
+.search-item-cancel-subtitle {
+  font-size: 12px;
+  color: #008009;
+}
+.search-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.search-item-rating {
+  display: flex;
+  justify-content: space-between;
+}
+.search-item-rating > span {
+  font-weight: 500;
+}
+.search-item-rating > button {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px 5px 5px 0;
+}
+
+.search-item-detail-texts {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.search-item-price {
+  font-size: 24px;
+}
+.search-item-tax {
+  font-size: 12px;
+  color: grey;
+}
+.search-item-check-button {
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
